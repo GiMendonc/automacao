@@ -43,16 +43,15 @@ Em cada cenário simularemos um caminho específico que o usuário pode percorre
   * Acesse o arquivo 'Gemfile' pelo 'Visual Studio Code', e apague as linhas sobre 'git_source' e comentários.
   * Ainda no arquivo 'Gemfile', confira se todas as bibliotecas do projeto (gems) foram declaradas, devendo ficar assim:
   
-    source "https://rubygems.org"
+    * source "https://rubygems.org"
     
-    gem "capybara"
-    gem "cucumber"
-    gem "ffi"
-    gem "selenium-webdriver"
-    gem "rspec"
-    gem "rufo"
+    * gem "capybara"
+    * gem "cucumber"
+    * gem "ffi"
+    * gem "selenium-webdriver"
+    * gem "rspec"
+    * gem "rufo"
       
-
   * Após declarar as bibliotecas, no 'Terminal' execute o comando abaixo para instalar as gems:
 
     >     bundle install
