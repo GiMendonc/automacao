@@ -123,17 +123,16 @@ https://user-images.githubusercontent.com/80423171/111373932-457f4480-867b-11eb-
   - Fluxo do projeto no Miro: https://miro.com/app/board/o9J_lQbkoXI=/
   - Caso tenha alguma dificuldade com a instalação, configuração e execução, por favor entre em contato no e-mail: gisele.ervolino@gmail.com
     
- 
 ## Versão
  
-1.0.0.0
+  - 1.0.0.0
  
-
-## Sobre mim: Gisele Mendonça Ervolino
+## Sobre a autora: Gisele Mendonça Ervolino
 
 [![Github Badge](https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white&link=https://github.com/gimendonc)](https://github.com/gimendonc)
 [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/giseleervolino/)](https://www.linkedin.com/in/giseleervolino/)
 [![Whatsapp Badge](https://img.shields.io/badge/-Whatsapp-4CA143?style=flat-square&labelColor=4CA143&logo=whatsapp&logoColor=white&link=https://api.whatsapp.com/send?phone=55011966115560&text=Hello!)](https://api.whatsapp.com/send?phone=55011966115560&text=Hello!)
 [![Gmail Badge](https://img.shields.io/badge/-Gmail-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:gisele.ervolino@gmail.com)](mailto:gisele.ervolino@gmail.com)
- 
-- Obrigada! 
+
+
+Obrigada! 
