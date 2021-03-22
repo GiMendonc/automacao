@@ -1,0 +1,9 @@
+default: --no-source --color --format pretty --format json --out=data/reports/report.json
+#profile_de_navegador
+firefox: firefox=true -p progress -p json
+chrome: chrome=true -p progress -p json
+headless: headless -p progress -p json
+#formato_do_terminal e report
+progress: --no-source --color --format pretty
+json: --format json --out=data/reports/report.json
+

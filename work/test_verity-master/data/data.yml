@@ -1,0 +1,13 @@
+ti:
+  site: 
+  login:
+  senha:
+qa:
+  site:
+  login:
+  senha:
+prod:
+  site: https://verity.com.br
+  login:
+  senha:
+

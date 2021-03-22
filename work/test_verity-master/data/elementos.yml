@@ -1,0 +1,22 @@
+############## breadcrumbs ###################
+breadcrumbs_contato: a[href='/contato']
+
+############## pagina_principal ##############
+
+botao_carrossel: button[class='light']
+
+################# contato #####################
+
+box_empresa: input[name='empresa']
+box_nome: input[name='nome']
+box_email: input[name='email']
+box_telefone: input[name='telefone']
+box_assunto: input[name='assunto']
+box_mensagem: textarea[name='mensagem']
+dropbox_elogios: option[value='Elogios']
+dropbox_duvidas: option[value='Dúvidas']
+dropbox_sugestoes: option[value='Sugestões']
+botao_enviar: button[class='submit']
+label_envio_mensaagem: div[class='button']
+
+###############################################
