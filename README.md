@@ -83,16 +83,15 @@ Exemplo:
  
   Tela do Visual Studio, mostrando o conteúdo do arquivo 'Gemfile' com as gems declaradas, e conteúdo do arquivo 'carrinho.feature' com os cenarios descritos em BDD:
   
-![visual-studio-example](https://user-images.githubusercontent.com/80423171/111373668-f6391400-867a-11eb-9a12-59959204bc38.jpg)
+![visual-studio-example](https://github.com/GiMendonc/automacao/blob/main/asics/amostras/vsc-bdd-gems.jpg)
 
   Tela do 'Terminal Cmder', com o resultado final da execução do teste, mostrando todos cenários e steps executados com sucesso:
   
-![cmder-passed-scenarios](https://user-images.githubusercontent.com/80423171/111373703-03560300-867b-11eb-98bd-c91be42d664b.jpg)
+![cmder-passed-scenarios](https://github.com/GiMendonc/automacao/blob/main/asics/amostras/cmder-4cenarios-passados.jpg)
 
-  Vídeo demonstrando a execução completa de todos os cenários
+  Vídeo demonstrando a execução completa de todos os cenários, na automação:
   
-https://user-images.githubusercontent.com/80423171/111373932-457f4480-867b-11eb-9113-ce25c275785c.mp4
-
+https://github.com/GiMendonc/automacao/blob/main/asics/amostras/automacao-loja-asics.gif
 
 ## Funcionalidade geral
 
