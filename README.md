@@ -1,10 +1,10 @@
 ## Teste Automatizado - Asics e-Commerce
  
-Testes automatizados são scripts capazes de orientar e executar comandos de forma automática, simulando comportamentos em cenários previamente descritos.
+Teste automatizado são scripts capazes de orientar e executar comandos de forma automática, simulando comportamentos a partir de cenários previamente descritos.
 
 O objetivo dessa abordagem visa, além de minimizar problemas, otimizar tempo e custos do projeto, contribuindo então com a garantia da qualidade da aplicação.
 
-No teste em questão, realizaremos simulações de ponta a ponta no e-Commerce da marca Asics Brasil, onde o objetivo final é inserir um produto específico no carrinho da loja.
+No teste em questão, realizaremos simulações no e-Commerce da marca Asics Brasil, onde o objetivo final é inserir um produto específico no carrinho da loja.
 
 Em cada cenário simularemos um caminho específico que o usuário pode percorrer, e ao executar, avaliaremos seu comportamento e resultado.
     
@@ -27,31 +27,24 @@ Em cada cenário simularemos um caminho específico que o usuário pode percorre
 ## Bibliotecas do projeto e versões
 
   * capybara (3.35.3)
-  * cucumber (5.3.0)
-  * ffi (1.15.0)
+  * cucumber (6.0.0)
   * selenium-webdriver (3.142.7)
-  * rspec (3.10.0)
   * rufo (0.12.0)
+  * pry (0.14.1) 
   
 ## Iniciando
  
   * Insira pasta 'work' na raiz do Windows.
-  * No terminal (Cmder), acesse o caminho da pasta 'work' e em seguida a pasta 'asics', ficando assim: c:\work\asics .
-  * Estando na pasta 'asics', crie o arquivo 'Gemfile' com o comando:
-
-    >    bundle init
-
-  * Acesse o arquivo 'Gemfile' pelo 'Visual Studio Code', e apague as linhas sobre 'git_source' e comentários.
-  * Ainda no arquivo 'Gemfile', confira se todas as bibliotecas do projeto (gems) foram declaradas, devendo ficar assim:
+  * No terminal (Cmder), acesse o caminho c:\work\asics
+  * Confira no arquivo 'Gemfile' se todas as bibliotecas do projeto (gems) foram declaradas, devendo ficar assim:
   
     * source "https://rubygems.org"
     
     * gem "capybara"
     * gem "cucumber"
-    * gem "ffi"
     * gem "selenium-webdriver"
-    * gem "rspec"
     * gem "rufo"
+    * gem "pry"
       
   * Após declarar as bibliotecas, execute no 'Terminal' o comando abaixo, que instalará as gems:
 
@@ -63,7 +56,8 @@ Em cada cenário simularemos um caminho específico que o usuário pode percorre
 
   * Por precaução, confira se consta na primeira linha do arquivo 'carrinho.feature' a instrução:
 
-    >     #language: pt
+         #language: pt
+         #encode: UTF-8
    
   * Se necessário, atualize o arquivo 'chromedriver' na pasta C:Windows com a versão compatível do seu navegador 'Chrome'.
 
@@ -75,15 +69,15 @@ Para isso, execute o comando abaixo no seu 'Terminal':
 
    >    cucumber features\carrinho.feature
 
-Caso queira executar um único cenário, utilize uma '@tag' acima do título do cenario, no arquivo 'carrinho.feature'.
+Caso queira executar um único cenário, utilize a '@tag' do cenario específico. Consulte o arquivo 'carrinho.feature'.
 Exemplo:
 
-    @temp
-    Cenario: Selecionar produto
+    @semtamanho
+    Cenario: Tentativa de colocar...
  
  E então, execute o comando que rodará apenas o cenário tagueado:
  
-   >    cucumber -t @temp
+   >    cucumber -t @semtamanho
  
  ## Imagens
  
@@ -100,23 +94,28 @@ Exemplo:
 https://user-images.githubusercontent.com/80423171/111373932-457f4480-867b-11eb-9113-ce25c275785c.mp4
 
 
-## Funcionalidade: Colocar Produto Específico no Carrinho
+## Funcionalidade geral
 
-    Historia:
+   Funcionalidade: Colocar Produto no Carrinho
+       Cliente deseja acessar o site da Asics
+       Encontrar o tenis modelo metaracer vermelho
+       Sendo que ele deseja o tenis no tamanho 37
+       Para então enviar o tenis escolhido para o carrinho
+
+## Cenários x Tags
+
+    @semtamanho
+    Cenario: Tentativa de colocar o produto no carrinho, SEM o tamanho selecionado
     
-    O cliente deseja acessar o site da Asics;
-    Fazer uma busca pelo tenis modelo metaracer vermelho;
-    Sendo que ele deseja o tenis no tamanho 37;
-    Para então selecionar o tenis e enviar para o carrinho.
-
-## Cenários escritos
-
-    Cenario: Buscar produto
-    Cenario: Selecionar produto
-    Cenario: Selecionar tamanho
-    Cenario: Colocar produto no carrinho
-    Cenario: Tamanho não selecionado
- 
+    @comtamanho
+    Cenario: Selecionando o tamanho do produto; e enviando produto ao carrinho
+    
+    @comCEP
+    Cenario: Selecionando o tamanho do produto; informando CEP; e enviando produto ao carrinho
+    
+    @quantidade
+    Cenario: Selecionando o tamanho do produto; informando CEP; alterando a quantidade; e enviando produto ao carrinho
+    
 ## Links
  
   - Repository: https://github.com/gimendonc/automacao.git
@@ -125,7 +124,7 @@ https://user-images.githubusercontent.com/80423171/111373932-457f4480-867b-11eb-
     
 ## Versão
  
-  - 1.0.0.0
+  - 1.3
  
 ## Sobre a autora: Gisele Mendonça Ervolino
 
