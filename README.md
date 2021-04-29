@@ -38,13 +38,13 @@ Em cada cenário simularemos um caminho específico que o usuário pode percorre
   * No terminal (Cmder), acesse o caminho c:\work\asics
   * Confira no arquivo 'Gemfile' se todas as bibliotecas do projeto (gems) foram declaradas, devendo ficar assim:
   
-     source "https://rubygems.org"
-    
-     gem "capybara"
-     gem "cucumber"
-     gem "selenium-webdriver"
-     gem "rufo"
-     gem "pry"
+        source "https://rubygems.org"
+
+        gem "capybara"
+        gem "cucumber"
+        gem "selenium-webdriver"
+        gem "rufo"
+        gem "pry"
       
   * Após declarar as bibliotecas, execute no 'Terminal' o comando abaixo, que instalará as gems:
 
