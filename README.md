@@ -96,11 +96,11 @@ https://user-images.githubusercontent.com/80423171/111373932-457f4480-867b-11eb-
 
 ## Funcionalidade geral
 
-   Funcionalidade: Colocar Produto no Carrinho
-       Cliente deseja acessar o site da Asics
-       Encontrar o tenis modelo metaracer vermelho
-       Sendo que ele deseja o tenis no tamanho 37
-       Para então enviar o tenis escolhido para o carrinho
+    Funcionalidade: Colocar Produto no Carrinho
+        Cliente deseja acessar o site da Asics
+        Encontrar o tenis modelo metaracer vermelho
+        Sendo que ele deseja o tenis no tamanho 37
+        Para então enviar o tenis escolhido para o carrinho
 
 ## Cenários x Tags
 
