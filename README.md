@@ -91,7 +91,7 @@ Exemplo:
 
   Vídeo demonstrando a execução completa de todos os cenários, na automação:
   
-https://github.com/GiMendonc/automacao/blob/main/asics/amostras/automacao-loja-asics.gif
+![Alt Text](https://github.com/GiMendonc/automacao/blob/main/asics/amostras/automacao-loja-asics.gif)
 
 ## Funcionalidade geral
 
