@@ -95,11 +95,12 @@ Exemplo:
 
 ## Funcionalidade geral
 
+    @carrinho
     Funcionalidade: Colocar Produto no Carrinho
         Cliente deseja acessar o site da Asics
         Encontrar o tenis modelo metaracer vermelho
-        Sendo que ele deseja o tenis no tamanho 37
-        Para então enviar o tenis escolhido para o carrinho
+        Escolher um tamanho e então enviar o tenis ao carrinho.
+        Simularemos os caminhos possíveis.
 
 ## Cenários x Tags
 
@@ -108,6 +109,9 @@ Exemplo:
     
     @comtamanho
     Cenario: Selecionando o tamanho do produto; e enviando produto ao carrinho
+    
+    @tamindisponivel
+    Cenario: Selecionando um tamanho indisponível; e recebendo mensagem de alerta
     
     @comCEP
     Cenario: Selecionando o tamanho do produto; informando CEP; e enviando produto ao carrinho
