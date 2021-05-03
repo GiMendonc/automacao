@@ -34,8 +34,8 @@ Em cada cenário simularemos um caminho específico que o usuário pode percorre
   
 ## Iniciando
  
-  * Insira pasta 'work' na raiz do Windows.
-  * No terminal (Cmder), acesse o caminho c:\work\asics
+  * Insira pasta 'asics' na raiz do Windows.
+  * No terminal (Cmder), acesse o caminho c:\asics
   * Confira no arquivo 'Gemfile' se todas as bibliotecas do projeto (gems) foram declaradas, devendo ficar assim:
   
         source "https://rubygems.org"
@@ -91,11 +91,11 @@ Exemplo:
 
   Vídeo da automação completa:
   
-![Alt Text](https://github.com/GiMendonc/automacao/blob/main/asics/amostras/asics-5-cenarios.gif)
+![Alt Automacao](https://github.com/GiMendonc/automacao/blob/main/asics/amostras/asics-5-cenarios.gif)
 
   Vídeo dos steps passados com sucesso no terminal:
   
-![Alt Text](https://github.com/GiMendonc/automacao/blob/main/asics/amostras/cmder-bdd-5-cenarios.gif)
+![Alt Terminal](https://github.com/GiMendonc/automacao/blob/main/asics/amostras/cmder-bdd-5-cenarios.gif)
 
 ## Funcionalidade geral
 
