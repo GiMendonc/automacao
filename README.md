@@ -79,7 +79,7 @@ Exemplo:
  
    >    cucumber -t @semtamanho
  
- ## Imagens
+ ## Demonstração
  
   Tela do Visual Studio, mostrando o conteúdo do arquivo 'Gemfile' com as gems declaradas, e conteúdo do arquivo 'carrinho.feature' com os cenarios descritos em BDD:
   
