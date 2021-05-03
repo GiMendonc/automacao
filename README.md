@@ -83,15 +83,19 @@ Exemplo:
  
   Tela do Visual Studio, mostrando o conteúdo do arquivo 'Gemfile' com as gems declaradas, e conteúdo do arquivo 'carrinho.feature' com os cenarios descritos em BDD:
   
-![visual-studio-example](https://github.com/GiMendonc/automacao/blob/main/asics/amostras/vsc-bdd-gems.jpg)
+![visual-studio-example](https://github.com/GiMendonc/automacao/blob/main/asics/amostras/vsc-bdd-5-gems.jpg)
 
   Tela do 'Terminal Cmder', com o resultado final da execução do teste, mostrando todos cenários e steps executados com sucesso:
   
-![cmder-passed-scenarios](https://github.com/GiMendonc/automacao/blob/main/asics/amostras/cmder-4cenarios-passados.jpg)
+![cmder-passed-scenarios](https://github.com/GiMendonc/automacao/blob/main/asics/amostras/cmder-5-cenarios-passados.jpg)
 
-  Vídeo demonstrando a execução completa de todos os cenários, na automação:
+  Vídeo da automação completa:
   
-![Alt Text](https://github.com/GiMendonc/automacao/blob/main/asics/amostras/automacao-loja-asics.gif)
+![Alt Text](https://github.com/GiMendonc/automacao/blob/main/asics/amostras/asics-5-cenarios.gif)
+
+  Vídeo dos steps passados com sucesso no terminal:
+  
+![Alt Text](https://github.com/GiMendonc/automacao/blob/main/asics/amostras/cmder-bdd-5-cenarios.gif)
 
 ## Funcionalidade geral
 
@@ -127,7 +131,7 @@ Exemplo:
     
 ## Versão
  
-  - 1.3
+  - 1.4
  
 ## Sobre a autora: Gisele Mendonça Ervolino
 
