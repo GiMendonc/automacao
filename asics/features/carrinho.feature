@@ -5,8 +5,8 @@
 Funcionalidade: Colocar Produto no Carrinho
     Cliente deseja acessar o site da Asics
     Encontrar o tenis modelo metaracer vermelho
-    Sendo que ele deseja o tenis no tamanho 37
-    Para então enviar o tenis escolhido para o carrinho
+    Escolher um tamanho e então enviar o tenis ao carrinho.
+    Simularemos os caminhos possíveis.
 
     Contexto: 
 
@@ -26,7 +26,13 @@ Funcionalidade: Colocar Produto no Carrinho
         Quando clico em comprar
         Entao o produto é inserido no meu carrinho de compras
 
-    @comCEP
+    @tamindisponivel
+    Cenario: Selecionando um tamanho indisponível; e recebendo mensagem de alerta
+
+        Quando seleciono o tamanho "38"
+        Entao vejo a mensagem de alerta: "Para ser avisado da disponibilidade deste Produto, basta preencher os campos abaixo."
+
+    @comcep
     Cenario: Selecionando o tamanho do produto; informando CEP; e enviando produto ao carrinho
 
         E seleciono o tamanho "39"

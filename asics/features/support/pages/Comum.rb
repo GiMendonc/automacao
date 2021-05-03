@@ -1,7 +1,9 @@
 class Comum
   include Capybara::DSL
 
-  ################ Comum ASICS
+  def site_prod
+    visit "https://www.asics.com.br/"
+  end
 
   def preenche_busca(texto)
     find("input[class*=fulltext-search-box]").set(texto)
@@ -24,7 +26,7 @@ class Comum
   end
 
   def selecionar_tamanho(texto)
-    find("span [for*='4486_Tamanhos_']", text: texto).click
+    find("span [for*='4486_Tamanhos_']", visible: true, text: texto).click
   end
 
   def selecionar_quantidade(numero)
@@ -35,11 +37,25 @@ class Comum
     find("input[id='txtCep']").set(cep)
   end
 
-  def mostrou_alerta(texto)
-    find("div[class=datos_obligatorios]", visible: true, text: texto)
+  def mostrou_alerta(valida_alerta)
+    case valida_alerta
+    when "Por favor, selecione um tamanho."
+      find("div[class=datos_obligatorios]", visible: true)
+      puts "Selecione um tamanho"
+    when "Para ser avisado da disponibilidade deste Produto, basta preencher os campos abaixo."
+      find("div [class='notifymetitle notifyme-title']", visible: true, text: "AVISE-ME")
+      puts "Tamanho indisponível"
+    else
+      raise "Não mostrou alerta esperado!"
+    end
   end
 
   def pagina_checkout
     page.has_css?(".checkout > div")
+  end
+
+  def evidencia(nome)
+    sleep 2
+    page.save_screenshot("logs/evidencia-STEP-#{nome}.png")
   end
 end
